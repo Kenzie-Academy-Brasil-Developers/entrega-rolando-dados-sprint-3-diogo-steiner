@@ -1,4 +1,4 @@
-i = 0,i <= 1000,d1 = numAleatorio,d2 = numAleatorio,somaDados = d1 + d2,case,"count [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",i++
+i = 0,i <= 1000,dado1 = numAleatorio,dado2 = numAleatorio,somaDados = dado1 + dado2,case,"count [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",i++
 0,true,2,4,6,6,"count [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]",true
 1,true,1,3,4,4,"count [0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0]",true
 2,true,3,3,6,6,"count [0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0]",true
@@ -19,7 +19,7 @@ i = 0,i <= 1000,d1 = numAleatorio,d2 = numAleatorio,somaDados = d1 + d2,case,"co
 ,,,,,,,
 ,,,,,,,
 ,,,,,,,
-,,,,,,grafico(count),
+,,,,,,"grafico(count)",
 ,,,,,,,
 ,,,,,,,
 ,,,,,,,
