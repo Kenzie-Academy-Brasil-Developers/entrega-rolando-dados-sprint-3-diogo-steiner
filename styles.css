@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background-color: aliceblue;
+}
+
+.list-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-btn  button {
+    height: 50px;
+    width: 150px;
+    margin: 32px;
+}
+
+.list-num {
+    list-style-type: none;
+}
+.grafico {
+    min-height: 250px;
+    min-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+}
+.grafico div {
+    width: 80px;
+    height: 50px;
+    background-color: green;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.nums {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nums span {
+    padding: 8px;
+    width: 80px;
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
