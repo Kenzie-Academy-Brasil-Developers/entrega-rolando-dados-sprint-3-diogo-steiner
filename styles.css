@@ -8,10 +8,19 @@ body {
 }
 .container {
     background-color: aliceblue;
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 500px;
+    min-width: 500px;
+    justify-content: space-between;
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 20px;
 }
 
 .list-btn {
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-between;
 }
 
@@ -25,21 +34,20 @@ body {
     list-style-type: none;
 }
 .grafico {
-    min-height: 250px;
-    min-width: 1000px;
+    width: 500px;
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
     gap: 20px;
 }
 .grafico div {
     width: 80px;
-    height: 50px;
+    height: 34px;
     background-color: green;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
     color: white;
     font-weight: bold;
     padding: 8px;
@@ -47,6 +55,7 @@ body {
 
 .nums {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -54,7 +63,8 @@ body {
 
 .nums span {
     padding: 8px;
-    width: 80px;
+    width: 30px;
+    height: 34px;
     background-color: green;
     color: white;
     display: flex;

@@ -73,7 +73,7 @@ function listandoResultado(resultArray) {
 function grafico (array) {
     const divsGrafico = document.querySelectorAll(".grafico div")
     for (let i = 0; i < array.length; i++) {
-        divsGrafico[i].style.height = `${array[i]}px`
+        divsGrafico[i].style.width = `${array[i]}px`
         divsGrafico[i].innerText = `${array[i]}x`
     }
     listandoResultado(array)
